@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Login from "./Login";
 import Signup from "./Signup";
+import Comments from "./Comments";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/sign-up" exact>
           <Signup />
+        </Route>
+        <Route path="/comments/:url">
+          <Comments />
         </Route>
       </Switch>
     </Router>
