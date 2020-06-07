@@ -4,14 +4,15 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./Login.css";
 
-export default function Login() {
+export default function Signup() {
   return (
     <>
       <Navbar />
       <div id="login-wrapper">
         <div id="form-wrapper">
           <Form>
-            <h1>Login</h1>
+            <h1>Sign up</h1>
+            <h6>And start contributing to the community!</h6>
             <hr />
             <Form.Group controlId="formUsername">
               <Form.Label>Username</Form.Label>

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+#login-wrapper {
+  height: calc(100vh - 57px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+#form-wrapper {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: -45px 38px 127px -52px rgba(0, 0, 0, 1);
+  background-color: white;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
