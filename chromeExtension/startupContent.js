@@ -6,9 +6,9 @@ function setup(){
     chrome.tabs.query(params, gotTab);
 
     function gotTab(tabs){
-        console.log("Hello from Rithvik")
-        console.log(tabs)
-        Url.textContent = tabs[0].url
+        console.log("Hello from Rithvik");
+        console.log(tabs);
+        Url.textContent = tabs[0].url.slice(0,20) + "...";
         var discussions = ["Discussion 1\n","Discussion 2\n","Discussion 3\n","Discussion 4\n","Discussion 5\n"];
         for(elm in discussions){
             var div = document.getElementById("idDiscussions");
