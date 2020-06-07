@@ -3,7 +3,6 @@ import SearchBar from "./SearchBar";
 // @ts-ignore
 import ReactRotatingText from "react-rotating-text";
 import "./Home.css";
-import { Link, Router } from "react-router-dom";
 import Navbar from "./Navbar";
 
 export default function Home() {
