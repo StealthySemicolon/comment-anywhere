@@ -1,13 +1,22 @@
-.button{
-    background-color: white;
-    text-align: left;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
+h3{
+    font-family: 'Raleway', sans-serif;
 }
-.button:hover{
-    background-color: blanchedalmond;}
+
+a{
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 500ms;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+}
+a:hover{
+    background-color: grey;
+}
