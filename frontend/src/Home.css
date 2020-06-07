@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+#main {
+  padding: 40px;
+  width: 100vw;
+}
+
+#logo {
+  font-size: 80px;
+  color: white;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+#tagline {
+  font-size: 25px;
+  color: white;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+}
+
+#search-form {
+  margin-top: 25px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+#search-box {
+  padding: 12px;
+  width: 400px;
+  font-size: 16px;
+  background-color: white;
+  border: 0;
+  outline: none;
+  border: 1px solid #ccc;
+  transition: border-color 200ms;
+}
+
+#search-box:focus {
+  outline: none;
+  border-color: blue;
+}
+
+#submit-button {
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  color: white;
+  font-size: 16px;
+  margin-left: -18px;
+  box-shadow: -12px 0px 39px -13px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  /* transition: width 200ms, height 200ms, ; */
+  transition: background-color 400ms;
+}
+
+.fa-search {
+  /* background-color: linear-gradient(to right, #8e2de2, #4a00e0); */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#8e2de2),
+    to(#4a00e0)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#submit-button:hover {
+  background-color: #eaeaea;
+}
