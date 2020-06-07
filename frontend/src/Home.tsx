@@ -8,7 +8,9 @@ export default function Home() {
       <div id="main">
         <h1 id="logo">Comment Anywhere</h1>
         <h3 id="tagline">No Censorship. Community Moderated.</h3>
-        <SearchBar />
+        <div id="wrapper">
+          <SearchBar />
+        </div>
       </div>
     </div>
   );

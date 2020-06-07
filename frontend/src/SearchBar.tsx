@@ -7,6 +7,7 @@ export default function SearchBar() {
         placeholder="Enter a URL"
         id="search-box"
         className="form-item"
+        autoComplete="off"
       />
       <button type="submit" id="submit-button" className="form-item">
         <span className="fa fa-search"></span>
