@@ -135,6 +135,11 @@ def verify_password(username_or_token, password):
     return True
 
 
+@app.route("/", methods=["GET"])
+def root():
+    return "<i>Why are you even here?</i>"
+
+
 @app.route("/api/users", methods=["POST"])
 def signup():
     data = request.get_json()
