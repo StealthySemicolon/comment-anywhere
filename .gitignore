@@ -1,6 +1,15 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,flask
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,flask
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,flask,dotnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,flask,dotnetcore
+
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
 
 ### Flask ###
 instance/*
@@ -57,6 +66,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
 
@@ -68,6 +78,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -94,12 +105,16 @@ ipython_config.py
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
-# celery beat schedule file
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -130,6 +145,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# pytype static type analyzer
+.pytype/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -167,10 +185,12 @@ dmypy.json
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 
-# celery beat schedule file
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+
+# Celery stuff
 
 # SageMath parsed files
 
@@ -186,11 +206,18 @@ dmypy.json
 
 # Pyre type checker
 
+# pytype static type analyzer
+
 ### VisualStudioCode ###
 .vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,flask
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,flask,dotnetcore
