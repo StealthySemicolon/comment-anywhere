@@ -15,15 +15,14 @@ function setup(){
         else{
             Url.textContent = tabs[0].url.slice(0,70);
         }
-        //var discussions = ["Discussion 1\n","Discussion 2\n","Discussion 3\n","Discussion 4\n","Discussion 5\n"]; // Get From Backend
-        var discussions = [["IpadPro","COOL","June 6 2020"],["Aang","Flameo Hotman", "June 9 2020"],["ILoveWater", "@Aang OMG is that an Avatar reference", "June 16 2020"],["YodaMaster","OMG I Love Avatar", "June 17 2020"]]; //Get From Backend
+        var discussions = ["Discussion 1\n","Discussion 2\n","Discussion 3\n","Discussion 4\n","Discussion 5\n"]; // Get From Backend
         // CREATING TEMPLATE
         for(elm in discussions){
             var div = document.getElementById("idDiscussions");
             var a = document.createElement('a');
             link = document.createTextNode(discussions[elm]);
-            //a.setAttribute("href","discussionpage.html");
-            a.innerText = (discussions[elm][0] + "\n" + discussions[elm][1] + "\n" + discussions[elm][2] + "\n");
+            a.setAttribute("href","discussionpage.html");
+            a.innerText = (discussions[elm]);
             div.appendChild(a); //ADDED JS CREATED TAG
         }//DONE WITH CREATION
     }
