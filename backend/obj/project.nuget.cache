@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n6Q9YkFd1yfMXt5t4LtiNg2PgkR9J+d6N3HG/xW62wW4yOKLnC1WWdvOMKTCREgrnhMuRlhLchKIwAw7oOItUg==",
+  "success": true,
+  "projectFilePath": "D:\\Sagar\\Code\\comment-anywhere\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sagar Patil\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
